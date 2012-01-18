@@ -159,8 +159,12 @@ namespace QuantumCode.CAPTCHAReader
         /// <returns></returns>
         public Bitmap GetPicValidByValue(Bitmap singlepic, int dgGrayValue)
         {
-            int posx1 = singlepic.Width; int posy1 = singlepic.Height;
-            int posx2 = 0; int posy2 = 0;
+            int posx1 = singlepic.Width; 
+            int posy1 = singlepic.Height;
+
+            int posx2 = 0; 
+            int posy2 = 0;
+
             for (int i = 0; i < singlepic.Height; i++)      //找有效区
             {
                 for (int j = 0; j < singlepic.Width; j++)
