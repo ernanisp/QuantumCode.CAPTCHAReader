@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumCode.CAPTCHAReader", "QuantumCode.CAPTCHAReader\QuantumCode.CAPTCHAReader.csproj", "{56E53F53-4E14-49A0-B996-5B70A4B8CE39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumCode.CAPTCHAReader.Sample", "..\samples\QuantumCode.CAPTCHAReader.Sample\QuantumCode.CAPTCHAReader.Sample.csproj", "{8015A186-F36C-4622-A40B-E69702E9243F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{56E53F53-4E14-49A0-B996-5B70A4B8CE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56E53F53-4E14-49A0-B996-5B70A4B8CE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56E53F53-4E14-49A0-B996-5B70A4B8CE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8015A186-F36C-4622-A40B-E69702E9243F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8015A186-F36C-4622-A40B-E69702E9243F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8015A186-F36C-4622-A40B-E69702E9243F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8015A186-F36C-4622-A40B-E69702E9243F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

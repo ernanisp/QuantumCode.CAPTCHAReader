@@ -3,6 +3,8 @@
 *.suo
 *.scc
 obj
+bin
+build
 *.vssscc
 *.vsscc
 *.vspscc

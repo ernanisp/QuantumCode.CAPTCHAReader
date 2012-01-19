@@ -9,7 +9,7 @@ namespace QuantumCode.CAPTCHAReader
     /// 快速自适应阀值算法
     /// 该方法来自于：http://www.xrce.xerox.com/Publications/Attachments/1993-110/EPC-1993-110.pdf
     /// </summary>
-    public class QuickAdaptiveThreshold : IThresholdAlgorithm
+    public class QuickAdaptiveThreshold : IThresholdingAlgorithm
     {
         #region IThresholdAlgorithm Members
 
@@ -61,7 +61,7 @@ namespace QuantumCode.CAPTCHAReader
 
                 for ( int x = 0; x <width; x ++ )  
                 {
-                    scanline = grayscale[y * x];
+                    scanline = grayscale[yh + x];
                     pn = scanline ;  
                     gn = ((gn * q) >> S) + pn;   
                     hn = (gn + prev_gn[x]) >> 1;  
@@ -78,7 +78,7 @@ namespace QuantumCode.CAPTCHAReader
 
                 for ( int x = width-1; x >= 0; x --)  
                 {
-                    scanline = grayscale[y * x];
+                    scanline = grayscale[yh + x];
                     pn = scanline; 
                     gn = ((gn * q) >> S) + pn;   
                     hn = (gn + prev_gn[x]) >> 1;  

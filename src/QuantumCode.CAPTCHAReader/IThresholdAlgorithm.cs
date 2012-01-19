@@ -8,7 +8,7 @@ namespace QuantumCode.CAPTCHAReader
     /// <summary>
     /// 阀值算法接口，用于计算图像阀值，返回二值化图像
     /// </summary>
-    public interface IThresholdAlgorithm
+    public interface IThresholdingAlgorithm
     {
         /// <summary>
         /// 计算阀值
